@@ -32,7 +32,7 @@ List_inputfiles = []
 
 for file in Path(PATH_FOLDER_INPUTS).iterdir():
     file_name = str(file)
-    # When you use iterdir(), the datatype is not a string. However, print(file) would be displayed the string of path.
+    # When you use iterdir(), the datatype is not a string. But print(file) would be displayed the string of path.
     List_inputfiles.append(file_name)
 
 num_inputfiles = len(List_inputfiles)
