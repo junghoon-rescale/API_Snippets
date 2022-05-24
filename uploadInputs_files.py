@@ -23,6 +23,7 @@ API_key = lines[2].split('=')[1].rstrip('\n').lstrip().replace("'", "")
 API_token = 'Token ' + API_key
 API_uploadurl = API_baseurl + '/api/v2/files/contents/'
 
+# This PATH block should be change for your folder structure
 CWD = os.getcwd()
 FOLDER_INPUTS = 'Test_Inputs'
 PATH_FOLDER_INPUTS = os.path.dirname(CWD) + '\\' + FOLDER_INPUTS
