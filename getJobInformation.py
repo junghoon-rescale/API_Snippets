@@ -2,8 +2,8 @@ import requests
 import json
 import sys
 
-# Input you API Kay
-apikey='e96bf8ccc9d38ee9045c060349d312bd5bceeb11'
+# Input you API Key
+apikey='Your API Key'
 
 job_id = str(sys.argv[1])
 
