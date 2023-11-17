@@ -4,3 +4,4 @@
 3. **downloadOutputs_general.py**: TBU
 4. **getBillingSummary_cse.py**: Get a billing summary from several customer's workspace(This is for Rescale Customer Success Engineer)
 5. **getJobInformation.py**: Get a information from specific job(You need to add the Job ID as argument)
+6. **getSDInformation.py**: Get a information from running storage devices
